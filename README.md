@@ -5,7 +5,7 @@ This is a template project for creating a Terraform backend in Azure.
 ## Prerequisites
 
 - You are logged-in to the Azure CLI to the specific subscription and have permission to provision a Storage Account and assign roles in Azure AD.
-- A User Group is configured in Azure Entra ID (formerly Azure AD) with the name 'tf-backend-users'
+- A User Group is configured in Azure Entra ID (formerly Azure AD) with the name 'tf-backend-users'.
 
 ## Usage
 
@@ -37,3 +37,9 @@ Creating a custom permission is advised, though this is not available in the fre
 ## Troubleshooting
 
 A common issue is that the Azure Entra ID user group (or Azure AD user group) has not yet been created, which must be done manually rather than via Terraform.
+
+## Upcoming Features
+
+- Restrict network access using Virtual Networks to improve security posture.
+- Create GitHub workflow(s) to monitor for any upgrades to the provider versions, and whether there are any changes required to configurations for Azure resources (e.g. a resource or key becomes deprecated).
+  - This should run on a regular basis, e.g. once a week or once a month.
