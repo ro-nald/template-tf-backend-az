@@ -5,7 +5,6 @@ This is a template project for creating a Terraform backend in Azure.
 ## Prerequisites
 
 - You are logged-in to the Azure CLI to the specific subscription and have permission to provision a Storage Account and assign roles in Azure AD.
-- A User Group is configured in Azure Entra ID (formerly Azure AD) with the name 'tf-backend-users'.
 
 ## Usage
 
