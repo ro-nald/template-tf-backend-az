@@ -42,3 +42,4 @@ A common issue is that the Azure Entra ID user group (or Azure AD user group) ha
 - Restrict network access using Virtual Networks to improve security posture.
 - Create GitHub workflow(s) to monitor for any upgrades to the provider versions, and whether there are any changes required to configurations for Azure resources (e.g. a resource or key becomes deprecated).
   - This should run on a regular basis, e.g. once a week or once a month.
+- Investigate feasibility and value of creating Terraform tests
